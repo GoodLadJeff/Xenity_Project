@@ -1,0 +1,304 @@
+{
+  "GameObjects": {
+    "18": {
+      "Childs": [],
+      "Components": {
+        "19": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "material": 3,
+            "meshData": 6,
+            "textures": [
+              27
+            ]
+          }
+        },
+        "20": {
+          "Type": "Testerino",
+          "Values": {
+            "myfloat": 420.0
+          }
+        },
+        "23": {
+          "Type": "BoxCollider",
+          "Values": {
+            "isTrigger": false,
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+              }
+            }
+          }
+        },
+        "24": {
+          "Type": "RigidBody",
+          "Values": {
+            "attachedcollider": 23,
+            "bounce": 0.0,
+            "drag": 1.0,
+            "gravityMultiplier": 1.0,
+            "isStatic": false,
+            "velocity": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          }
+        }
+      },
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 4.36411190032959,
+              "z": 0.0
+            }
+          },
+          "localRotation": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "active": true,
+        "name": "Player"
+      }
+    },
+    "5": {
+      "Childs": [],
+      "Components": {
+        "6": {
+          "Type": "Camera",
+          "Values": {
+            "farClippingPlane": 1000.0,
+            "fov": 60.0,
+            "nearClippingPlane": 0.30000001192092896,
+            "projectionSize": 5.0,
+            "projectionType": 0,
+            "useMultisampling": true
+          }
+        }
+      },
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 4.582834243774414,
+              "z": -10.111773490905762
+            }
+          },
+          "localRotation": {
+            "Values": {
+              "x": 15.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "active": true,
+        "name": "MainCamera"
+      }
+    },
+    "7": {
+      "Childs": [],
+      "Components": {
+        "11": {
+          "Type": "Light",
+          "Values": {
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "a": 1.0,
+                    "b": 1.0,
+                    "g": 1.0,
+                    "r": 1.0
+                  }
+                }
+              }
+            },
+            "intensity": 1.0,
+            "range": 20.0,
+            "spotAngle": 30.0,
+            "spotSmoothness": 0.0,
+            "type": 0
+          }
+        }
+      },
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 10.0,
+              "z": 0.0
+            }
+          },
+          "localRotation": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "active": true,
+        "name": "MainLight"
+      }
+    },
+    "9": {
+      "Childs": [],
+      "Components": {
+        "10": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "material": 3,
+            "meshData": 10,
+            "textures": [
+              25
+            ]
+          }
+        },
+        "21": {
+          "Type": "RigidBody",
+          "Values": {
+            "attachedcollider": 22,
+            "bounce": 0.5,
+            "drag": 1.0,
+            "gravityMultiplier": 1.0,
+            "isStatic": true,
+            "velocity": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          }
+        },
+        "22": {
+          "Type": "BoxCollider",
+          "Values": {
+            "isTrigger": false,
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": -0.5,
+                "z": 0.0
+              }
+            },
+            "size": {
+              "Values": {
+                "x": 10.0,
+                "y": 1.0,
+                "z": 10.0
+              }
+            }
+          }
+        }
+      },
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotation": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 10.0,
+              "y": 10.0,
+              "z": 10.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "active": true,
+        "name": "Plane"
+      }
+    }
+  },
+  "Lighting": {
+    "Values": {
+      "fogColor": {
+        "Values": {
+          "rgba": {
+            "Values": {
+              "a": 1.0,
+              "b": 0.5960784554481506,
+              "g": 0.5960784554481506,
+              "r": 0.5960784554481506
+            }
+          }
+        }
+      },
+      "fogEnd": 50.0,
+      "fogStart": 10.0,
+      "isFogEnabled": false,
+      "skyColor": {
+        "Values": {
+          "rgba": {
+            "Values": {
+              "a": 1.0,
+              "b": 0.09803921729326248,
+              "g": 0.09803921729326248,
+              "r": 0.09803921729326248
+            }
+          }
+        }
+      }
+    }
+  }
+}
